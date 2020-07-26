@@ -1,11 +1,19 @@
 # A-complete-management-of-a-flight-reservation-system-using-multi-thread-concept-with-proper-
 A flight ticket booking system based on client - server communication
-# Operating-Systems-Project
-A flight ticket booking system based on client - server communication
 
-This project focuses on the complete management of a flight reservation/booking system. Customers can make reservations/modifications/cancellations online through the main server. The server is able to handle many customers simultaneously at any time.
-
-Customers are assumed to be the clients in the system, and they can make a booking by contacting the server.
+This project focuses on a complete management of a flight reservation/booking system.
+Customers can make reservations/modifications/cancellation online through the main server.
+The server should be able to handle many customers simultaneously at any time. The server
+should be multithreaded and program should have at least 100 threads, but preferably many
+more.
+Customers are assumed to be the clients in the system, and they can make booking via contacting
+the server. When a connection is established between the customers and the server, the server
+will greet the customer and display the menu to the client. The menu should include the following
+option:
+• Make a reservation
+• Inquiry about the ticket
+• Modify the reservation
+• Cancel the reservation
 
 This project involves working with threads, synchronization, and message passing in a client-server environment.
 
