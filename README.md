@@ -1,4 +1,4 @@
-A complete management of a flight reservation/booking system using multi-thread concept with proper synchronization(locks/semaphore) and message passing in client-server environment
+# A complete management of a flight reservation/booking system using multi-thread concept with proper synchronization(locks/semaphore) and message passing in client-server environment
 This project focuses on the complete management of a flight reservation/booking system. Customers can make reservations/modifications/cancellations online through the main server. The server is able to handle many customers simultaneously at any time.
 
 Customers are assumed to be the clients in the system, and they can make a booking by contacting the server.
